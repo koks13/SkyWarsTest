@@ -1,0 +1,29 @@
+Mongodb:
+  Enable: false
+  URL:
+  databaseName:
+  collection:
+
+Bungee: false
+LobbyServer:
+
+coins:
+  kill: 50
+  death: 0
+  win: 375
+
+experience:
+  kill: 1
+  death: 0
+  win: 7
+
+levels:
+  - 0
+  - 100
+  - 250
+  - 300
+  - 440
+  - 550
+  - 700
+  - 1000
+  - 1500

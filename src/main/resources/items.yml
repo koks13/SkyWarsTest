@@ -1,0 +1,124 @@
+items:
+  base:
+  - material:IRON_SWORD, amount:1, chance:90
+  - material:DIAMOND_SWORD, amount:1, chance:40
+  - special:baseSword, c1:20, c2:50
+  - material:COOKED_BEEF, amount:16, chance:90
+  - material:COOKED_BEEF, amount:8, chance:60
+  - material:SNOW_BALL, amount:8, chance:65
+  - material:EGG, amount:8, chance:40
+  - material:BOW, amount:1, chance:50
+  - material:ARROW, amount:16, chance:30, chance:50
+  - material:ARROW, amount:8, chance:45
+  - material:IRON_HELMET, amount:1, chance:90
+  - material:IRON_CHESTPLATE, amount:1, chance:90
+  - material:IRON_LEGGINGS, amount:1, chance:90
+  - material:IRON_BOOTS, amount:1, chance:90
+  - material:DIAMOND_HELMET, amount:1, chance:20, chance:35
+  - material:DIAMOND_CHESTPLATE, amount:1, chance:20, chance:35
+  - material:DIAMOND_LEGGINGS, amount:1, chance:20, chance:35
+  - material:DIAMOND_BOOTS, amount:1, chance:20, chance:35
+  - material:COBBLESTONE, amount:16, chance:90
+  - material:COBBLESTONE, amount:32, chance:80
+  - material:WOOD, amount:16, chance:80
+  - material:WOOD, amount:32, chance:95
+  - material:TNT, amount:4, chance:40, chance:70
+  - material:FLINT_AND_STEEL, amount:1, chance:35, chance:60
+  - material:GOLDEN_APPLE, amount:1, chance:25, chance:75
+  - special:pearl2, c1:0, c2:90
+  - special:fire_resistens, c1:60, c2:40
+  mid:
+  - special:fire, c1:10, c2:40
+  - special:dHelmet, c1:15, c2:15
+  - special:dChesplate, c1:15, c2:15
+  - special:dLeggins, c1:15, c2:15
+  - special:dBoots, c1:15, c2:15
+  - special:dSword, c1:15, c2:15
+  - special:bow3, c1:35, c2:35
+  - special:bow4, c1:10, c2:20
+  - special:bow5, c1:5, c2:5
+  - special:pearl2, c1:36, c2:55
+  - special:pearl1, c1:25, c2:45
+  - special:speed, c1:60, c2:50
+  - special:fire_resistens, c1:60, c2:40
+  - special:regeneration1, c1:35, c2:21
+  - special:regeneration2, c1:30, c2:20
+  - material:COBBLESTONE, amount:16, chance:35
+  - material:COBBLESTONE, amount:32, chance:20
+  - material:WOOD, amount:16, chance:25
+  - material:WOOD, amount:32, chance:40
+  - material:TNT, amount:4, chance:30, chance:60
+  - material:TNT, amount:8, chance:15, chance:25
+  - material:FLINT_AND_STEEL, amount:1, chance:20, chance:35
+  - material:GOLDEN_APPLE, amount:2, chance:25, chance:45
+  - material:GOLDEN_APPLE, amount:5, chance:15, chance:35
+  - material:ARROW, amount:32, chance:45
+  - material:ARROW, amount:16, chance:50
+specialItems:
+  fire:
+    Type: DIAMOND_SWORD
+    DisplayName: '&cFire Sword'
+    Enchants:
+    - enchantment:FIRE_ASPECT, lvl:1
+    - enchantment:DAMAGE_ALL, lvl:2
+  dHelmet:
+    Type: DIAMOND_HELMET
+    Enchants:
+    - enchantment:PROTECTION_ENVIRONMENTAL, lvl:4
+  dChesplate:
+    Type: DIAMOND_CHESTPLATE
+    Enchants:
+    - enchantment:PROTECTION_ENVIRONMENTAL, lvl:4
+  dLeggins:
+    Type: DIAMOND_LEGGINGS
+    Enchants:
+    - enchantment:PROTECTION_ENVIRONMENTAL, lvl:4
+  dBoots:
+    Type: DIAMOND_BOOTS
+    Enchants:
+    - enchantment:PROTECTION_ENVIRONMENTAL, lvl:4
+  bow3:
+    Type: BOW
+    Enchants:
+    - enchantment:ARROW_DAMAGE, lvl:3
+  bow4:
+    Type: BOW
+    Enchants:
+    - enchantment:ARROW_DAMAGE, lvl:4
+  bow5:
+    Type: BOW
+    Enchants:
+    - enchantment:ARROW_DAMAGE, lvl:5
+  dSword:
+    Type: DIAMOND_SWORD
+    Enchants:
+    - enchantment:DAMAGE_ALL, lvl:3
+  baseSword:
+    Type: DIAMOND_SWORD
+    Enchants:
+    - enchantment:DAMAGE_ALL, lvl:1
+  pearl1:
+    Type: ENDER_PEARL
+    Amount: 4
+  pearl2:
+    Type: ENDER_PEARL
+    Amount: 2
+  speed:
+    Type: SPLASH_POTION
+    PotionData: SPEED
+    Effects:
+    - effect:SPEED, time:30, lvl:2
+  fire_resistens:
+    Type: POTION
+    PotionData: FIRE_RESISTANCE
+    Effects:
+  regeneration1:
+    Type: SPLASH_POTION
+    PotionData: REGEN
+    Effects:
+    - effect:REGENERATION, time:30, lvl:1
+  regeneration2:
+    Type: SPLASH_POTION
+    PotionData: REGEN
+    Effects:
+    - effect:REGENERATION, time:15, lvl:2

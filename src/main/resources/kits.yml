@@ -1,0 +1,66 @@
+#Rarity: DEFAULT, COMMON, RARE, EPIK, LEGENDARY
+kits:
+  kit1:
+    DisplayName: '&e&lОбычный'
+    DisplayItemType: IRON_PICKAXE
+    Rarity: DEFAULT
+    Description:
+    - '&7&lЖелезный меч'
+    - '&7&lЖелезная кирка'
+    - '&7&lЖелезный топор'
+    - '&7&lЖелезная лопата'
+    KitItems:
+      iron_sword:
+        Type: IRON_SWORD
+      iron_pickaxe:
+        Type: IRON_PICKAXE
+      iron_axe: 
+        Type: IRON_AXE
+      iron_shovel:
+        Type: IRON_SPADE
+  kit2:
+    DisplayName: '&e&lКузнец'
+    DisplayItemType: ANVIL
+    Rarity: COMMON
+    Cost: 100
+    Description:
+    - '&b&lНаковальня'
+    - '&b&lКнига'
+    - '&r▪ &lЗащита &rIV'
+    - '&r▪ &lОстрота &rI'
+    - '&r▪ &lБесконечность &rI'
+    - '&b&lАлмазный шлем'
+    - '&b&lПузырьки опыта &rx64'
+    - ' '
+    KitItems:
+      anvil:
+        Type: ANVIL
+      book:
+        Type: ENCHANTED_BOOK
+        Enchants:
+        - enchantment:PROTECTION_ENVIRONMENTAL, lvl:4
+        - enchantment:DAMAGE_ALL, lvl:1
+        - enchantment:ARROW_INFINITE, lvl:1
+      exp_bottle:
+        Type: EXP_BOTTLE
+        Amount: 64
+  kit3:
+    DisplayName: '&e&lСкаут'
+    DisplayItemType: POTION
+    DisplayItemPotionData: SPEED
+    Rarity: RARE
+    Cost: 100
+    Description:
+    - '&b&lЗелья &rx3'
+    - ' &r▪ &lСкорость &rII'
+    - '&7&lКаменный меч'
+    - ' '
+    KitItems:
+      stone_sword:
+        Type: STONE_SWORD
+      speed_potion:
+        Type: SPLASH_POTION
+        Amount: 3
+        PotionData: SPEED
+        Effects:
+        - effect:SPEED, time:40, lvl:2

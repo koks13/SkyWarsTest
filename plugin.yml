@@ -1,0 +1,9 @@
+main: koks.SkyWars
+name: SkyWars
+version: 1.0
+
+commands:
+  skywars:
+    aliases: sw
+    permission: admin.koks
+    permission-message: нет прав

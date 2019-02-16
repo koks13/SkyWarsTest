@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SkyWars">
+    <output-path>$USER_HOME$/Desktop/Сервер/sky-wars/plugins</output-path>
+    <root id="archive" name="SkyWarsKoks.jar">
+      <element id="module-output" name="SkyWarsKoks" />
+    </root>
+  </artifact>
+</component>
